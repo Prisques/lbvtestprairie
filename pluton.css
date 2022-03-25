@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.contenaire{
+    width: 100%;
+    height: 4500px;
+    border:1px solid black;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+.nav, .main{
+    border: 1px solid black;
+}
+img{
+    border-radius: 90%;
+    position: absolute;
+    top: 1100px;
+    left: 850px;
+    width: 200px;
+    height: 200px;
+}
+.maryjane{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+    font-size: xx-large;
+    width: 1000px;
+    
+}
+.maryjanedoe{              /*taille*/
+    font-size: 3em;
+}
+.check{
+    font-size: 47px;
+    position: absolute;
+    left: 175px;
+    top: 150px;
+}
+.carrevert{
+    border: 1px solid green;
+    position: absolute;
+    top: 1450px;
+    left: 549px;
+    font-size: xx-large;
+    padding: 10px 100px 10px 100px ;
+}
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+}
